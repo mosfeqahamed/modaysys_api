@@ -15,9 +15,12 @@ Installation Steps
 1.Clone the repository:
 git clone https://github.com/mosfeqahamed/modaysys_api.git
 cd modaysys_api
+
 2. cd env/Scripts
+
 3.Activate the activate.bat:
 .\activate.bat
+
 4.Install dependencies: pip install -r requirements.txt
 
 5.Set up the database: python manage.py migrate
