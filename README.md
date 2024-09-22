@@ -24,6 +24,8 @@ cd modaysys_api
 3.Activate the activate.bat:
 .\activate.bat
 
+4.comming back to modaysys_api directory and write " cd social_network " to the terminal
+
 4.Install dependencies: pip install -r requirements.txt
 
 5.Set up the database: python manage.py migrate
