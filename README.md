@@ -35,3 +35,45 @@ cd modaysys_api
 9.Run the development server: python manage.py runserver
 
 8.Access the application at http://127.0.0.1:8000/.
+
+
+To check api:
+
+POST http://127.0.0.1:8000: Register a new user.
+
+Example payload:
+
+{
+    "username": "user1",
+    "email": "user1@example.com",
+    "password": "password123"
+}
+
+POST /token: Obtain JWT tokens (access and refresh)
+
+Example payload:
+
+{
+    "username": "user1",
+    "password": "password123"
+}
+
+POST /token/refresh: Refresh the access token.
+
+Example payload:
+
+{
+    "refresh": "your_refresh_token"
+}
+
+GET /profile: View or update the user's profile (bio and profile picture)
+
+POST /add_friend: Send a friend request by user ID
+
+Example payload:
+
+{
+    "user_to_id": 2
+}
+
+GET /friendship_graph: Retrieve a friendship graph of the user’s social network.
