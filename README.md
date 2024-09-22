@@ -12,8 +12,11 @@ Friend Management: Users can add friends, and friendships are validated to avoid
 Friendship Graph: Visualize the social connections using NetworkX.
 
 Installation Steps
+
 1.Clone the repository:
+
 git clone https://github.com/mosfeqahamed/modaysys_api.git
+
 cd modaysys_api
 
 2. cd env/Scripts
