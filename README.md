@@ -26,12 +26,12 @@ cd modaysys_api
 
 4.comming back to modaysys_api directory and write " cd social_network " to the terminal
 
-4.Install dependencies: pip install -r requirements.txt
+5.Install dependencies: pip install -r requirements.txt
 
-5.Set up the database: python manage.py migrate
+7.Set up the database: python manage.py migrate
 
-6.Create a superuser to access the admin panel: python manage.py createsuperuser
+8.Create a superuser to access the admin panel: python manage.py createsuperuser
 
-7.Run the development server: python manage.py runserver
+9.Run the development server: python manage.py runserver
 
 8.Access the application at http://127.0.0.1:8000/.
